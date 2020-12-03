@@ -2,7 +2,7 @@ from bitcoin.rpc import RawProxy
 
 p = RawProxy()
 
-txid = raw_input("Iveskite transakcijos ID\n")
+txid = raw_input("Iveskite transakcijos hash:\n")
 
 
 # First, retrieve the raw transaction in hex
